@@ -4,7 +4,7 @@ This document records what was changed while extracting this showcase from the o
 
 ## Identity / branding
 
-- All references to the original business name and its production domain were replaced with generic placeholders (`example.com`, "Demo Farmers Market Co-op", "Demo Farmers Market").
+- All references to the original business name and its production domain were replaced with generic placeholders (`example.com`, "Demo Small Business  Co-op", "Demo Small Business ").
 - Real admin/operator/contact email addresses were replaced with `info@example.com` / `customer@example.com` style placeholders.
 
 ## Credentials / configuration
@@ -16,7 +16,7 @@ This document records what was changed while extracting this showcase from the o
 ## Customer / order data
 
 - All customer names, emails, phone numbers, and order ids are fictional, written specifically for this repo (`src/lib/mock-data/orders.ts`). None correspond to real people or real transactions.
-- Real market names/addresses were replaced with a fictional "Demo Farmers Market" / "Main Plaza" placeholder.
+- Real market names/addresses were replaced with a fictional "Demo Small Business " / "Main Plaza" placeholder.
 
 ## Code scope
 
