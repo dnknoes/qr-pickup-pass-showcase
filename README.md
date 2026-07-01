@@ -1,6 +1,6 @@
-# QR Pickup Pass — Encrypted Token Redemption for Farmers Market Preorders
+# QR Pickup Pass — Encrypted Token Redemption for Small Business Preorders
 
-I built a secure QR-based pickup verification system for real-world preorder pickup at physical farmers markets: customers pay online, receive an emailed QR pass, and staff scan it at the market to confirm and redeem the order — with a full audit trail and a self-serve recovery flow for lost passes.
+I built a secure QR-based pickup verification system for real-world preorder pickup at physical pop ups or small businesses: customers pay online, receive an emailed QR pass, and staff scan it at the market to confirm and redeem the order — with a full audit trail and a self-serve recovery flow for lost passes.
 
 This repository is a sanitized, standalone extraction of that system's pickup-pass subsystem, built for a portfolio review rather than as a running SaaS product. The token, hashing, encryption, and redemption logic are unchanged from production; the surrounding business context (catalog, inventory, other fulfillment methods) has been stripped or mocked out. See [docs/sanitization-notes.md](docs/sanitization-notes.md) for exactly what was removed.
 
